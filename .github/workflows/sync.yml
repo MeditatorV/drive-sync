@@ -2,10 +2,10 @@ name: Drive Sync
 on:
     push:
     schedule:
-        - cron: '0 0/6 * * *'
+        - cron: '0 1 0 * *'
 jobs:
     move:
-        name: OneDrive to Google Drive Sync
+        name: OneDrive_business to OneDrive Drive Sync
         runs-on: ubuntu-latest
         steps:
         - name: checkout
