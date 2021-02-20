@@ -2,7 +2,7 @@ name: Drive Sync
 on:
     push:
     schedule:
-        - cron: '0 1 0 * *'
+        - cron: '0 0 * * *'
 jobs:
     move:
         name: OneDrive_business to OneDrive Drive Sync
