@@ -1,2 +1,2 @@
 #!/bin/sh
-rclone copy onedrive: gdrive_mirror:Frank --transfers 48 -v
+rclone sync onedrive_business: onedrive --transfers 48 -v
