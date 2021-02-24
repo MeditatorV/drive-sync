@@ -1,11 +1,11 @@
 #下载好rclone,放入文件夹里运行下面命令，设置挂载网盘
-'''
+```
 rclone config --config=./rclone.conf
-'''
+```
 把两个网盘加载后，运行下
-'''
+```
 gpg --symmetric --cipher-algo AES256 rclone.conf
-'''
+```
 对文件rclone.conf加密，密码随机，
 然后到Action里添加参数GPG_PASSPHRASE，值填上上面的随机密码
 
