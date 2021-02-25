@@ -2,7 +2,7 @@ name: Club OneDrive Sync
 on:
     push:
     schedule:
-        - cron: '0 0/6 * * *'
+        - cron: '0 0/12 * * *'
 jobs:
     move:
         name: Club OneDrive to Google Drive Sync
