@@ -2,7 +2,7 @@ name: Google Drive Sync
 on:
     push:
     schedule:
-        - cron: '0 0/12 * * *'
+        - cron: '0 0/6 * * *'
 jobs:
     move:
         name: Google Drive to Google Drive Sync
