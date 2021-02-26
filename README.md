@@ -30,4 +30,3 @@ Then edit this document, add sth. or delete sth. Then click save(This'll start t
 
 **That's it, it'll run per 6 hrs.**
 
- 
