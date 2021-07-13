@@ -19,3 +19,6 @@ Then edit this document, add sth. or delete sth. Then click save(This'll start t
 **That's it, it'll run per 6 hrs.**
 # IMPORTANT
 **I also use this project, so you should delete all text below the 24th line. Then delete all the .sh file except `copy.sh` and `decrypt.sh`**
+
+
+https://www.bilibili.com/video/BV1Nt4y167c4?t=814
