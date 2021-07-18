@@ -17,10 +17,10 @@ jobs:
               bash decrypt.sh
           env:
               GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE}}
-        - name: odbntood
+        - name: OnedriveToOnedrive
           run: |
               # Start Mission 
-              bash copy.sh
+              bash OnedriveToOnedrive.sh
               
     OnedriveToGoogle:
         name: OneDrive_Business to googleDrive Sync
