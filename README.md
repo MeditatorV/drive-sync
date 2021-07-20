@@ -1,4 +1,9 @@
 # How to use
+
+```shell 
+rclone config --config=./rclone.conf
+```
+
 Go to <a href="https://gpg4win.org/thanks-for-download.html" target="_blank">GPG4Win</a> and download the latest GPG4win.
 Install it.
 And config your rclone. This is for OneDrive -> Google Drive. So please use:
