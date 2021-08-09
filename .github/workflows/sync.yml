@@ -22,4 +22,9 @@ jobs:
               # Start Mission 
               bash OnedriveToOnedrive.sh
               
+        - name: OnedriveToGoogle
+          run: |
+              # Start Mission 
+              bash OnedriveToGoogle.sh
+              
  
