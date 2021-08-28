@@ -22,22 +22,22 @@ jobs:
               # Start Mission 
               bash OnedriveToOnedrive.sh
               
-    OnedriveToGoogledrive:
-        name: OneDrive_Business to googleDrive Sync
-        runs-on: ubuntu-latest
-        steps:
-        - name: checkout
-          uses: actions/checkout@master
-        - name: Download and Install rclone
-          run: sudo curl https://rclone.org/install.sh | sudo bash
-        - name: Decrypt config
-          run: |
-              bash decrypt.sh
-          env:
-              GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE}}
-        - name: OnedriveToGoogle
-          run: |
-              # Start Mission 
-              bash OnedriveToGoogle.sh
+   # OnedriveToGoogledrive:
+    #    name: OneDrive_Business to googleDrive Sync
+    #    runs-on: ubuntu-latest
+    #    steps:
+    #    - name: checkout
+    #      uses: actions/checkout@master
+    #    - name: Download and Install rclone
+    #      run: sudo curl https://rclone.org/install.sh | sudo bash
+    #    - name: Decrypt config
+    #      run: |
+    #          bash decrypt.sh
+    #      env:
+    #          GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE}}
+    #    - name: OnedriveToGoogle
+    #      run: |
+    #          # Start Mission 
+    #          bash OnedriveToGoogle.sh
               
  
