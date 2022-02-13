@@ -5,7 +5,7 @@ on:
         - cron: '0 0/6 * * *'
 jobs:
     OnedriveToOnedrive:
-        name: onedrive_business to onedrive Sync
+        name: OneDrive_Business to OneDrive Sync
         runs-on: ubuntu-latest
         steps:
         - name: checkout
