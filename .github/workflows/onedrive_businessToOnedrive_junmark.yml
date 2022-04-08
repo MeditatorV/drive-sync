@@ -17,7 +17,7 @@ jobs:
               bash decrypt.sh
           env:
               GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE}}
-        - name: OnedriveToOnedrive_hnu
+        - name: OnedriveToOnedrive_junmark
           run: |
               # Start Mission 
               bash OnedriveToOnedrive_junmark.sh
