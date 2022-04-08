@@ -17,7 +17,7 @@ jobs:
               bash decrypt.sh
           env:
               GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE}}
-        - name: OnedriveToOnedrive
+        - name: OnedriveToOnedrive_hnu
           run: |
               # Start Mission 
               bash OnedriveToOnedrive_hnu.sh
