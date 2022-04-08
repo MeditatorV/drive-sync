@@ -5,7 +5,7 @@ on:
         - cron: '0 0/6 * * *'
 jobs:
     OnedriveToOnedrive_bit:
-        name: OneDrive_Business to OneDrive Sync
+        name: OneDrive_Business to OneDrive_bit Sync
         runs-on: ubuntu-latest
         steps:
         - name: checkout
@@ -17,7 +17,7 @@ jobs:
               bash decrypt.sh
           env:
               GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE}}
-        - name: OnedriveToOnedrive
+        - name: OnedriveToOnedrive_bit
           run: |
               # Start Mission 
               bash OnedriveToOnedrive_bit.sh
