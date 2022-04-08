@@ -1,4 +1,4 @@
-name: Drive Sync
+name: onedrive_businessToOnedrive Sync
 on:
     push:
     schedule:
