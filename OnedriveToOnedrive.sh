@@ -1,2 +1,2 @@
 #!/bin/sh
-rclone --size-only --fast-list --order-by modtime,desc sync onedrive_business: onedrive:Onedrive_business -u --checkers=24 --transfers=2 --use-mmap --buffer-size=1024M --onedrive-chunk-size=102400 --multi-thread-cutoff=250M --multi-thread-streams=4 --exclude "{.svn,.git,.idea}/" -v
+rclone --fast-list --order-by modtime,desc sync --size-only  onedrive_business: onedrive:Onedrive_business --checkers=64 --transfers=4 --buffer-size=1024M --onedrive-chunk-size=102400 --multi-thread-cutoff=1024M --multi-thread-streams=10 --exclude "{.svn,.git,.idea}/" --drive-acknowledge-abuse  -v -u
