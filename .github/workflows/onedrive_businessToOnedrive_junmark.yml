@@ -1,4 +1,4 @@
-name: onedrive_businessToOnedrive_junmark Sync
+name: onedriveToOnedrive_junmark Sync
 on:
     push:
     schedule:
