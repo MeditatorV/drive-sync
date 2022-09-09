@@ -1,11 +1,11 @@
-name: onedrive_businessToOnedrive_bit Sync
+name: onedriveToOnedrive_bit Sync
 on:
     push:
     schedule:
         - cron: '0 7 * * *'
 jobs:
     OnedriveToOnedrive_bit:
-        name: OneDrive_Business to OneDrive_bit Sync
+        name: OneDrive to OneDrive_bit Sync
         runs-on: ubuntu-latest
         steps:
         - name: checkout
