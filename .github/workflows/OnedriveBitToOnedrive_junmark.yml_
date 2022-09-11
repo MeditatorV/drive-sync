@@ -1,11 +1,11 @@
-name: onedriveToOnedrive_junmark Sync
+name: onedriveBitToOnedrive_junmark Sync
 on:
     push:
     schedule:
         - cron: '0 13 * * *'
 jobs:
-    OnedriveToOnedrive_junmark:
-        name: OneDrive to OneDrive_junmark Sync
+    OnedriveBitToOnedrive_junmark:
+        name: OneDriveBit to OneDrive_junmark Sync
         runs-on: ubuntu-latest
         steps:
         - name: checkout
@@ -17,7 +17,7 @@ jobs:
               bash decrypt.sh
           env:
               GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE}}
-        - name: OnedriveToOnedrive_junmark
+        - name: OnedriveBitToOnedrive_junmark
           run: |
               # Start Mission 
-              bash OnedriveToOnedrive_junmark.sh
+              bash OnedriveBitToOnedrive_junmark.sh
