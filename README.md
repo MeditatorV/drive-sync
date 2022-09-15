@@ -62,4 +62,3 @@ gpg --symmetric --cipher-algo AES256 rclone.conf
 点击 `Settings` ，点击`Secrets`，创建一个名为 `GPG_PASSPHRASE`, 的存储库秘密，将你的密码粘贴进去，点击保存。  
 
 然后编辑这个文档，添加或删除某物。然后点击保存(这将启动工作流程)。
-
