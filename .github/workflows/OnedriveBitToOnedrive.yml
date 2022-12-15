@@ -2,7 +2,7 @@ name: OnedriveBitToOnedrive Sync
 on:
     push:
     schedule:
-        - cron: '20 11 * * *'
+        - cron: '20 11/12 * * *'
 jobs:
     OnedriveBitToOnedrive:
         name:  OneDrive_bit To OneDrive Sync
